@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.box-bg1{
+    background-image: url(../img/1.jpg)
+}
+.box-bg2{
+    background-image: url(../img/2.jpg)
+}
+.box-bg3{
+    background-image: url(../img/3.jpg)
+}
+.section-title{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #626262;
+}
+.section-title h2{
+    font-size: 32px;
+    color: #222222;
+    position: relative;
+}
+section.section-padding{
+    padding: 100px 0;
+}
+.box-bg{
+    background-position: center center;
+    background-size: cover;
+    height: 200px; 
+    border: 1px #FE9015 solid;
+}
+.box-bg{
+    border-bottom: 0px solid;
+}
+.box-content{
+    border: 1px #f4f4f4 solid;
+    padding: 20px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.box-content h3{
+    color: #1E1E1E;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.box-meta i{
+    color: #FE9015;
+    padding-right: 3px;
+}
+.box-meta{
+    color: #777777;
+    font-size: 14px;
+}
+.box-meta span{
+    padding-right: 10px;
+}
+.box-meta span:last-child{
+    padding-right: 0px;
+}
+.box-meta a{
+    color: #777777;
+    font-size: 14px;
+}
+.readmore-button{
+    background-color: #FF8F17;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.readmore-button:hover{
+    background-color: #222222;
+    color: #fff;
+}
+.single-box:hover .box-content{
+    border-color: #FF8F17;
+}
